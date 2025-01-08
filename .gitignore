@@ -1,0 +1,83 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+dist/
+dist-ssr/
+build/
+
+# Local environment files
+*.env
+*.local
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# React specific
+build/
+coverage/
+public/static/
+
+# Ignore all test files
+*.test.js
+*.test.jsx
+*.test.ts
+*.test.tsx
+*.spec.js
+*.spec.jsx
+*.spec.ts
+*.spec.tsx
+
+# Ignore specific files in the vanillajs folder
+/vanillajs/node_modules/
+/vanillajs/dist/
+/vanillajs/build/
+
+# Ignore specific files in the react folder
+/react/node_modules/
+/react/dist/
+/react/build/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*.err
+*.orig
+*.rej
+*.log
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
