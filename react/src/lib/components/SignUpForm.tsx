@@ -224,7 +224,7 @@ export default function SignUpForm() {
         <div
           className={`${
             apiResponse.result ? "alert-success" : "alert-danger"
-          } alert py-2 px-5 w-50 mt-2`}
+          } alert py-2 px-5 w-md-50 mt-2`}
         >
           <p className="text-md text-uppercase text-center text-bold">
             {apiResponse.message}
@@ -233,7 +233,7 @@ export default function SignUpForm() {
       )}
 
       {/* Output a list of all the errors on the form when the button is clicked and errors exist */}
-      <div className="w-50 mt-3">
+      <div className="w-md-50 mt-3">
         {formik.submitCount > 0 && Object.keys(formik.errors).length > 0 && (
           <div className="alert alert-danger">
             <ul>
