@@ -109,7 +109,6 @@ export default function SignUpForm() {
 
   const { resetForm } = formik;
 
-
   useEffect(() => {
     // Clear the form if the API response is successful
     if (apiResponse?.result) {
@@ -135,7 +134,7 @@ export default function SignUpForm() {
           noValidate
           autoComplete="off"
           onSubmit={formik.handleSubmit}
-          className="py-5 w-50"
+          className="py-3 w-md-50"
         >
           <ul className="nav nav-pills mb-3" id="form-pills-tab" role="tablist">
             <li className="nav-item" role="presentation">
